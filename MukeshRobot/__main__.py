@@ -1069,8 +1069,8 @@ def main():
                 [
                     [
                         InlineKeyboardButton(
-                            text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ➕",
-                            url="https://t.me/{dispatcher.bot.username}?startgroup=true""
+                            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ",
+                            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true"
                             )
                        ]
                 ]
