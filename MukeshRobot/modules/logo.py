@@ -293,9 +293,9 @@ async def lego(event):
             file=fname,
             caption=f"""━━━━━━━{BOT_NAME}━━━━━━━
 
-☘️ ʟᴏɢᴏ ᴄʀᴇᴀᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ☘️
+☘ ʟᴏɢᴏ ᴄʀᴇᴀᴛᴇᴅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ☘
 ◈──────────────◈
-🔥 ᴄʀᴇᴀᴛᴇᴅ ʙʏ : @{BOT_USERNAME}
+ ᴄʀᴇᴀᴛᴇᴅ ʙʏ : @{BOT_USERNAME}
 ━━━━━━━{BOT_NAME}━━━━━━━""",buttons=button_row
 )
         await pesan.delete()
