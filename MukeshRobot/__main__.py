@@ -375,7 +375,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             f"\n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
             f"\n*➻ ᴜsᴇʀs »* {sql.num_users()}"
             f"\n*➻ ᴄʜᴀᴛs »* {sql.num_chats()}"
-            f"\n*➻ ғᴏʀ ᴜʜ »* [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+xWcg-WBN1oBjMjk1)                    
+            f"\n*➻ ғᴏʀ ᴜʜ »* [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+xWcg-WBN1oBjMjk1)"                    
             "\n────────────────────"
             "\n\n➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
             "\n➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
