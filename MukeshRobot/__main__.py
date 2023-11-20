@@ -70,7 +70,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 PM_START_TEX = """
-ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ᴊᴀᴀɴᴜ . . . 
+ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ᴊᴀᴀɴᴜ ʀᴅx ʙᴏᴛ ɪs sᴛᴀʀᴛɪɴɢ . . . 
 """
 
 
@@ -82,7 +82,8 @@ PM_START_TEXT = """
 ─────────────────
    *➻ ᴜsᴇʀs »* {}
    *➻ ᴄʜᴀᴛs »* {}
-   *➻ ғᴏʀ ᴜʜ »* [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+xWcg-WBN1oBjMjk1)
+   *➻ ᴜɴɪǫᴜᴇ sᴛᴜᴅʏ »* [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+PtOLQT04ocMzOTJl)
+   *➻ ᴛᴇʀᴀ ᴍᴇʀᴀ sᴀғᴀʀ »* [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+WRmWApnCkrJmOGFl)
 ─────────────────
 """
 
@@ -96,18 +97,18 @@ buttons = [
      ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ɴᴇ ᴛᴏ ᴜʜʜ ɢʀᴏᴜᴘ",
+            text="˹ᴀᴅᴅ ɴᴇ ᴛᴏ ᴜʜʜ ɢʀᴏᴜᴘ˼",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛᴏ ᴜʜʜ ᴄʜᴀɴɴᴇʟ",
+            text="˹ᴀᴅᴅ ᴛᴏ ᴜʜʜ ᴄʜᴀɴɴᴇ˼",
             url=f"https://t.me/{dispatcher.bot.username}?startchannel=new",
         ),
     ],
     [
-        InlineKeyboardButton(text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"),
+        InlineKeyboardButton(text="˹ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs˼", callback_data="Main_help"),
     ],
     
 
@@ -119,7 +120,7 @@ HELP_STRINGS = f"""
 DONATE_STRING = f"""ʜᴇʏ ʙᴀʙʏ,
   ʜᴀᴩᴩʏ ᴛᴏ ʜᴇᴀʀ ᴛʜᴀᴛ ʏᴏᴜ ᴡᴀɴɴᴀ ᴅᴏɴᴀᴛᴇ.
 
-ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ](https://t.me/+m4oVCt2zFhYyMTdl) ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @the\_support\_chat ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
+ʏᴏᴜ ᴄᴀɴ ᴅɪʀᴇᴄᴛʟʏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ](https://t.me/+WRmWApnCkrJmOGFl) ғᴏʀ ᴅᴏɴᴀᴛɪɴɢ ᴏʀ ʏᴏᴜ ᴄᴀɴ ᴠɪsɪᴛ ᴍʏ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ @the\_support\_chat ᴀɴᴅ ᴀsᴋ ᴛʜᴇʀᴇ ᴀʙᴏᴜᴛ ᴅᴏɴᴀᴛɪᴏɴ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -222,13 +223,13 @@ def start(update: Update, context: CallbackContext):
             lol = update.effective_message.reply_text(
                 PM_START_TEX.format(usr.first_name), parse_mode=ParseMode.MARKDOWN
             )
-            time.sleep(0.4)
+            time.sleep(0.6)
             lol.edit_text("💜")
-            time.sleep(0.5)
+            time.sleep(0.7)
             lol.edit_text("💙")
-            time.sleep(0.3)
+            time.sleep(0.5)
             lol.edit_text("💚")
-            time.sleep(0.4)
+            time.sleep(0.6)
             lol.delete()
             
             update.effective_message.reply_photo(START_IMG,PM_START_TEXT.format(escape_markdown(first_name), BOT_NAME,sql.num_users(),sql.num_chats()),
@@ -375,7 +376,8 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             f"\n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
             f"\n*➻ ᴜsᴇʀs »* {sql.num_users()}"
             f"\n*➻ ᴄʜᴀᴛs »* {sql.num_chats()}"
-            f"\n*➻ ғᴏʀ ᴜʜ »* [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+xWcg-WBN1oBjMjk1)"                    
+            f"\n*➻ ᴜɴɪǫᴜᴇ sᴛᴜᴅʏ »* [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+PtOLQT04ocMzOTJl)"
+            f"\n*➻ ᴛᴇʀᴀ ᴍᴇʀᴀ sᴀғᴀʀ »* [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+WRmWApnCkrJmOGFl)"
             "\n────────────────────"
             "\n\n➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
             "\n➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
@@ -432,7 +434,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
      ],
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url="https://t.me/+xWcg-WBN1oBjMjk1"
+                            text="sᴜᴩᴩᴏʀᴛ", url="https://t.me/+WRmWApnCkrJmOGFl"
                         ),
                         InlineKeyboardButton(
                             text="ᴜᴩᴅᴀᴛᴇs", url="https://t.me/+m4oVCt2zFhYyMTdl"
@@ -602,7 +604,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
         InlineKeyboardButton(text="💛", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/+xWcg-WBN1oBjMjk1"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/+WRmWApnCkrJmOGFl"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -626,7 +628,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 
 
 {BOT_NAME} ɪs ʟɪᴄᴇɴsᴇᴅ ᴜɴᴅᴇʀ ᴛʜᴇ [ᴍɪᴛ ʟɪᴄᴇɴsᴇ](https://github.com/NOBITA-RDX/RDX-RBT/blob/main/LICENSE).
-© 2023 - 2024 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/+xWcg-WBN1oBjMjk1), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
+© 2023 - 2024 | [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ](https://t.me/+WRmWApnCkrJmOGFl), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             
@@ -754,7 +756,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
 
 /lyrics [ᴍᴜsɪᴄ ɴᴀᴍᴇ] - sᴇᴀʀᴄʜᴇs ʟʏʀɪᴄs ғᴏʀ ᴛʜᴇ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴍᴜsɪᴄ ᴏɴ ᴡᴇʙ.
 
-/song [ᴛʀᴀᴄᴋ ɴᴀᴍᴇ] or [ʏᴛ ʟɪɴᴋ] - ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ᴛʀᴀᴄᴋ ғʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ɪɴ ᴍᴘ3 or ᴍᴘ4 ғᴏʀᴍᴀᴛꜱ.
+/song [ᴛʀᴀᴄᴋ ɴᴀᴍᴇ](https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw) or [ʏᴛ ʟɪɴᴋ](https://www.youtube.com/channel/UCoOmopJ8YVYz9Lm8iHhNYMw) - ᴅᴏᴡɴʟᴏᴀᴅ ᴀɴʏ ᴛʀᴀᴄᴋ ғʀᴏᴍ ʏᴏᴜᴛᴜʙᴇ ɪɴ ᴍᴘ3 or ᴍᴘ4 ғᴏʀᴍᴀᴛꜱ.
 
 /player -  ɢᴇt ᴀ ɪɴᴛᴇʀᴀᴄᴛɪᴠᴇ ᴘʟᴀʏɪɴɢ ᴘᴀɴᴇʟ.
 
@@ -1097,7 +1099,7 @@ def main():
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ ᴡɪᴛʜ 😘 ʙʏ [⦏ᴛ⦐ʜᴇ ᴋɪɴɢ](tg://user?id=1777270311)**
+**ᴍᴀᴅᴇ ᴡɪᴛʜ 😘 ʙʏ [『♕︎𓆩𝗥𝗗𝗫𓆪𝗥⟁𝗝™♕︎』](tg://user?id=1777270311)**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
@@ -1108,13 +1110,13 @@ def main():
             )
         except Unauthorized:
             LOGGER.warning(
-                f"Bot isn't able to send message to @{SUPPORT_CHAT}, go and check!"
+                f"Bot isn't able to send message to ,[sᴜᴘᴘᴏʀᴛ](https://t.me/+WRmWApnCkrJmOGFl), go and check!"
             )
         except BadRequest as e:
             LOGGER.warning(e.message)
-    start_handler = CommandHandler("start", start, run_async=True)
+    start_handler = CommandHandler("start","rdx", start, run_async=True)
 
-    help_handler = CommandHandler("help", get_help, run_async=True)
+    help_handler = CommandHandler("help",rdxhelp", get_help, run_async=True)
     help_callback_handler = CallbackQueryHandler(
         help_button, pattern=r"help_.*", run_async=True
     )
@@ -1163,5 +1165,5 @@ def main():
 if __name__ == "__main__":
     LOGGER.info("Successfully loaded modules: " + str(ALL_MODULES))
     telethn.start(bot_token=TOKEN)
-    pbot.start()
+    rdxbot.start()
     main()
