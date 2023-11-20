@@ -398,18 +398,18 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
      ],
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", callback_data="mukesh_support"
+                            text="˹sᴜᴩᴩᴏʀᴛ˼", callback_data="mukesh_support"
                         ),
                         InlineKeyboardButton(
-                            text="ᴄᴏᴍᴍᴀɴᴅs", callback_data="Main_help"
+                            text="˹ᴄᴏᴍᴍᴀɴᴅs˼", callback_data="Main_help"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id=1777270311"
+                            text="˹ᴅᴇᴠᴇʟᴏᴩᴇʀ˼", url=f"tg://user?id=1777270311"
                         ),
                         InlineKeyboardButton(
-                            text="sᴏᴜʀᴄᴇ",
+                            text="˹sᴏᴜʀᴄᴇ˼",
                             callback_data="source_",
                         ),
                     ],
@@ -434,18 +434,18 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
      ],
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url="https://t.me/+WRmWApnCkrJmOGFl"
+                            text="˹sᴜᴩᴩᴏʀᴛ˼", url="https://t.me/+WRmWApnCkrJmOGFl"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs", url="https://t.me/+m4oVCt2zFhYyMTdl"
+                            text="˹ᴜᴩᴅᴀᴛᴇs˼", url="https://t.me/+m4oVCt2zFhYyMTdl"
                         ),
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"tg://user?id=1777270311"
+                            text="˹ᴏᴡɴᴇʀ˼", url=f"tg://user?id=1777270311"
                         ),
                         InlineKeyboardButton(
-                            text="ɢɪᴛʜᴜʙ", url="https://github.com/NOBITA-RDX"
+                            text="˹ɢɪᴛʜᴜʙ˼", url="https://github.com/NOBITA-RDX"
                         ),
                     ],
                     [
@@ -472,16 +472,16 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
-                        InlineKeyboardButton(text="ᴍᴜsɪᴄ", callback_data="Music_")
+                        InlineKeyboardButton(text="˹ᴍᴀɴᴀɢᴇᴍᴇɴᴛ˼", callback_data="help_back"),
+                        InlineKeyboardButton(text="˹ᴍᴜsɪᴄ˼", callback_data="Music_")
                     ],
                     [
-                        InlineKeyboardButton(text="ʙᴀsɪᴄ ", callback_data="basic_help"),
-                        InlineKeyboardButton(text="ᴇxᴘᴇʀᴛ", callback_data="expert_help")
+                        InlineKeyboardButton(text="˹ʙᴀsɪᴄ ˼", callback_data="basic_help"),
+                        InlineKeyboardButton(text="˹ᴇxᴘᴇʀᴛ˼", callback_data="expert_help")
                     ],
                     [
-                        InlineKeyboardButton(text="ᴀᴅᴠᴀɴᴄᴇ", callback_data="advance_help"),
-                        InlineKeyboardButton(text="ᴅᴏɴᴀᴛɪᴏɴ", callback_data="donation_help") 
+                        InlineKeyboardButton(text="˹ᴀᴅᴠᴀɴᴄᴇ˼", callback_data="advance_help"),
+                        InlineKeyboardButton(text="˹ᴅᴏɴᴀᴛɪᴏɴ˼", callback_data="donation_help") 
                     ],
                     [InlineKeyboardButton(text="• Hᴏᴍᴇ •", callback_data="mukesh_back")]
                 ]
@@ -634,7 +634,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
             
             reply_markup=InlineKeyboardMarkup(
                 [[
-        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url="https://t.me/+m4oVCt2zFhYyMTdl")
+        InlineKeyboardButton(text="˹sᴏᴜʀᴄᴇ˼", url="https://t.me/+m4oVCt2zFhYyMTdl")
                 ],
                  [
         InlineKeyboardButton(text="💜", callback_data="mukesh_back"),
@@ -675,21 +675,21 @@ def Music_about_callback(update: Update, context: CallbackContext):
      ],
                     [
                         InlineKeyboardButton(
-                            text="⍟ ᴀᴅᴍɪɴ ⍟", callback_data="Music_admin"
+                            text="˹⍟ ᴀᴅᴍɪɴ ⍟˼", callback_data="Music_admin"
                         ),
                         InlineKeyboardButton(
-                            text="⍟ ᴘʟᴀʏ ⍟", callback_data="Music_play"
+                            text="˹⍟ ᴘʟᴀʏ ⍟˼", callback_data="Music_play"
                         ),
                     ],
                     [
                         InlineKeyboardButton(text="⍟ ʙᴏᴛ ⍟", callback_data="Music_bot"),
                         InlineKeyboardButton(
-                            text="⍟ ᴇxᴛʀᴀ ⍟",
+                            text="˹⍟ ᴇxᴛʀᴀ ⍟˼",
                             callback_data="Music_extra",
                         ),
                     ],
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help")
+                        InlineKeyboardButton(text="˹• ʙᴀᴄᴋ •˼", callback_data="Main_help")
                     ],
                 ]
             ),
@@ -716,7 +716,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="˹ ʙᴀᴄᴋ ˼", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -769,7 +769,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="˹ ʙᴀᴄᴋ ˼", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -789,7 +789,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
+                        InlineKeyboardButton(text="˹ ʙᴀᴄᴋ ˼", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")
                     ]
                 ]
             ),
@@ -833,13 +833,13 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴩᴇɴ ɪɴ ᴩʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ",
+                            text="˹ᴏᴩᴇɴ ɪɴ ᴩʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ˼",
                             url="https://t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="ᴏᴩᴇɴ ʜᴇʀᴇ",
+                            text="˹ᴏᴩᴇɴ ʜᴇʀᴇ˼",
                             callback_data="help_back",
                         )
                     ],
@@ -1079,13 +1079,13 @@ def main():
                 [
                     [
                         InlineKeyboardButton(
-            text="ᴀᴅᴅ ɴᴇ ᴛᴏ ᴜʜʜ ɢʀᴏᴜᴘ",
+            text="˹ᴀᴅᴅ ɴᴇ ᴛᴏ ᴜʜʜ ɢʀᴏᴜᴘ˼",
             url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
         ),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴛᴏ ᴜʜʜ ᴄʜᴀɴɴᴇʟ",
+            text="˹ᴀᴅᴅ ᴛᴏ ᴜʜʜ ᴄʜᴀɴɴᴇ˼",
             url=f"https://t.me/{dispatcher.bot.username}?startchannel=new",
                             )
                        ]
@@ -1099,7 +1099,7 @@ def main():
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ ᴡɪᴛʜ 😘 ʙʏ [『♕︎𓆩𝗥𝗗𝗫𓆪𝗥⟁𝗝™♕︎』](tg://user?id=1777270311)**
+**ᴍᴀᴅᴇ ᴡɪᴛʜ ʙʏ➪ [『♕︎𓆩𝗥𝗗𝗫𓆪𝗥⟁𝗝™♕︎』](tg://user?id=1777270311)**
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
