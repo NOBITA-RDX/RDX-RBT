@@ -1116,7 +1116,7 @@ def main():
             LOGGER.warning(e.message)
     start_handler = CommandHandler("start","rdx", start, run_async=True)
 
-    help_handler = CommandHandler("help",rdxhelp", get_help, run_async=True)
+    help_handler = CommandHandler("help","rdxhelp", get_help, run_async=True)
     help_callback_handler = CallbackQueryHandler(
         help_button, pattern=r"help_.*", run_async=True
     )
